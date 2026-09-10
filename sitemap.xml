@@ -37,5 +37,4 @@ permalink: /sitemap.xml
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/schema-invalid</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/html-lang-missing</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/html-lang-invalid</loc></url>
-  <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-long</loc></url>
 </urlset>
