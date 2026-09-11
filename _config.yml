@@ -1,0 +1,12 @@
+title: Site fixture Jekyll
+url: "https://noyaru-stack-jekyll.netlify.app"
+# The host simulated by tests/static_site_server.py serves /blog and 301s /blog/, so pages are
+# built as flat .html files rather than directories with an index.
+permalink: /:title:output_ext
+plugins: []
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, '*.log']
+# Jekyll ecarte d'office tout fichier commençant par `_`, y compris `_redirects` — le fichier de
+# redirections de l'hote. Mesure en ligne : `/gauntlet/ancienne-page` renvoyait 404 sur cette
+# stack contre 301 sur toutes les autres, ce qui privait le parcours de la famille
+# `page_has_links_to_redirect` ET lui ajoutait un « lien vers page cassee » parasite.
+include: ['_redirects']
