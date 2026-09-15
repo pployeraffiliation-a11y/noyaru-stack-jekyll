@@ -48,5 +48,5 @@ permalink: /sitemap.xml
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-no-description</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-long</loc></url>
   <url><loc>http://noyaru-stack-jekyll.netlify.app/gauntlet/</loc></url>
-  <url><loc>https://noyaru-stack-jekyll.netlify.app/page-absente</loc></url>
+  <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/canonical-404</loc></url>
 </urlset>
