@@ -48,3 +48,5 @@ permalink: /sitemap.xml
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-long</loc></url>
   <url><loc>http://noyaru-stack-jekyll.netlify.app/gauntlet/</loc></url>
 </urlset>
+
+Sitemap: https://noyaru-stack-jekyll.netlify.app/sitemap.xml
