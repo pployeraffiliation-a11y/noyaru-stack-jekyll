@@ -6,7 +6,6 @@ permalink: /sitemap.xml
 <url><loc>https://noyaru-stack-jekyll.netlify.app/</loc></url>
 <url><loc>https://noyaru-stack-jekyll.netlify.app/blog</loc></url>
 <url><loc>https://noyaru-stack-jekyll.netlify.app/a-propos</loc></url>
-  <url><loc>https://noyaru-stack-jekyll.netlify.app/page-absente</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/missing-title</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/missing-meta-description</loc></url>
@@ -48,5 +47,4 @@ permalink: /sitemap.xml
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/html-lang-invalid</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-no-description</loc></url>
   <url><loc>https://noyaru-stack-jekyll.netlify.app/gauntlet/noindex-long</loc></url>
-  <url><loc>https://noyaru-stack-jekyll.netlify.app/page-absente</loc></url>
 </urlset>
