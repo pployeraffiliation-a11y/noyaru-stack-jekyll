@@ -1,0 +1,35 @@
+---
+layout: gauntlet
+permalink: /gauntlet/comment-verifier-les-balises-canoniques-d-un-site
+html_attrs: ' lang="fr"'
+raw_head: |
+  <!-- FAMILLE VISEE : reference — page saine servant de repere pour la verification des balises canoniques. -->
+  <meta name="viewport" content="width=device-width" />
+  <title>Comment verifier les balises canoniques d'un site</title>
+  <meta name="description" content="Methode pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et quelles erreurs frequentes eviter." />
+  <link rel="canonical" href="https://noyaru-stack-jekyll.netlify.app/gauntlet/comment-verifier-les-balises-canoniques-d-un-site" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Comment verifier les balises canoniques d'un site" />
+  <meta property="og:description" content="Methode pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et quelles erreurs frequentes eviter." />
+  <meta property="og:url" content="https://noyaru-stack-jekyll.netlify.app/gauntlet/comment-verifier-les-balises-canoniques-d-un-site" />
+  <meta property="og:image" content="https://noyaru-stack-jekyll.netlify.app/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Comment verifier les balises canoniques d'un site" />
+  <meta name="twitter:description" content="Methode pour verifier les balises canoniques d'un site : ou les trouver, quoi controler et quelles erreurs frequentes eviter." />
+  <meta name="twitter:image" content="https://noyaru-stack-jekyll.netlify.app/og.png" />
+raw_body: |
+  <h1>Comment verifier les balises canoniques d'un site</h1>
+  <p>La balise canonique indique aux moteurs de recherche l'adresse de reference d'une page. Quand plusieurs URL affichent un contenu identique ou proche, elle signale laquelle doit etre indexee. Une balise mal posee disperse le signal ou pointe vers la mauvaise page.</p>
+  <h2>Ou la trouver</h2>
+  <p>La balise se place dans la partie <code>&lt;head&gt;</code> du document, sous la forme <code>&lt;link rel="canonical" href="..." /&gt;</code>. Ouvrez le code source de la page (clic droit, « afficher la source ») et cherchez ce marqueur. Il ne doit y en avoir qu'un seul par page.</p>
+  <h2>Quoi controler</h2>
+  <ul>
+    <li>L'URL indiquee doit renvoyer un code 200, pas une redirection ni une erreur 404.</li>
+    <li>Elle doit etre absolue, avec le protocole et le domaine complets.</li>
+    <li>Elle doit correspondre a la version reelle de la page : bon domaine, bonne casse, avec ou sans slash final de facon coherente.</li>
+    <li>Une page qui se veut de reference doit pointer vers elle-meme (auto-referencement).</li>
+  </ul>
+  <h2>Erreurs frequentes</h2>
+  <p>Une canonique vers une page absente, une double declaration, un pointage systematique vers l'accueil, ou une URL en HTTP quand le site est en HTTPS : ce sont les cas qui reviennent le plus souvent. Verifiez aussi la coherence avec le sitemap et les redirections.</p>
+  <p><a href="/">Retour a l accueil</a></p>
+---
